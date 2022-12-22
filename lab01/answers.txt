@@ -1,12 +1,12 @@
 Exercise 2:
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
+1.to set the arguments that will be passed to a program, use `set` <arglist>, where arglist is the list of arguments
+2. break [file]:line / break <file>:function. These commands set a breakpoint in a file, at a specified line or function.
+3. to execute the next line after stopping at a breakpoint, press n to step over the line or s to step into it.
+4. 
+5. to continue onto the next breakpoint, use continue or simply, c. After this command, we can specify a number, which will indicate how many breakpoints we want to ignore before going to the next breakpoint. 
+6.to print the value of an expression, use p <expression>
+7. use display <expression> to display an expression every time the program stops
+8. use `info locals` to display all local variables in the current frame
+9. type quit to quit gdb
 Exercise 4:
-1.
+1. ./primes > primenumbers.txt
