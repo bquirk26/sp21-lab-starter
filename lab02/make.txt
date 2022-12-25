@@ -1,7 +1,7 @@
-1.
-2.
-3.
-4.
-5.
-6.
-7.
+1.make clean clears out all compiled programs
+2. make all compiles all programs
+3. gcc is the compiler being used
+4. we're using the c99 standard
+5. to reference a variable FOO, we would write $(FOO)
+6. Darwin represents the MacOS operating system
+7. line 32  makes lsfr from its object files 
